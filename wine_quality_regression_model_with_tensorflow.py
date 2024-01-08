@@ -7,8 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1VOA8D3N60mIrmOxye1NIs-mpiI5e1lBO
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
+# from google.colab import drive
+# drive.mount('/content/drive')
 
 """imports"""
 
@@ -23,10 +23,10 @@ import matplotlib.pyplot as plt
 
 #loading datasets
 #white-wine dataset
-white_wine_data = pd.read_csv("drive/MyDrive/data file/wine quality/winequality-white.csv", sep=";")
+white_wine_data = pd.read_csv("wine quality/winequality-white.csv", sep=";")
 print(white_wine_data.head)
 # red-wine dataset
-red_wine_data = pd.read_csv("drive/MyDrive/data file/wine quality/winequality-red.csv", sep=";")
+red_wine_data = pd.read_csv("wine quality/winequality-red.csv", sep=";")
 print(red_wine_data.head)
 
 #preprocesing
